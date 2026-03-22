@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Data files (add data separately — keep directory structure only)
+data/*
+!data/.gitkeep
+*.xlsx
+*.xls
+*.parquet
+*.h5
+*.hdf5
+
+# Model artifacts
+models/
+*.pkl
+*.joblib
+*.model
+*.pt
+*.pth
+*.onnx
+
+# Logs and outputs
+logs/
+*.log
+outputs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
